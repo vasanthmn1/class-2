@@ -1,0 +1,34 @@
+
+difference between HTTP1 vs HTTP2
+
+Hypertext Transfer Protocol (HTTP)
+
+
+HTTP1.1 used to process text commands to complete request-response cycles.
+HTTP2 will use binary commands (in 1s and 0s) to execute the same tasks.
+HTTP1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it
+HTP2 uses header compression to reduce overhead
+HTTP2 allows servers to “push” responses proactively into client caches
+
+
+
+Write a blog about objects and its internal representation in Javascript
+
+
+syntax ⬇️⬇️
+
+object ={key:value}
+
+
+let obj = {
+    id: 1,
+    name: "vasanth",
+    age: 21
+}
+
+console.log(obj);
+
+output
+
+{id: 1, name: 'vasanth', age: 21}
+
